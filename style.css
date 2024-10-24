@@ -27,6 +27,8 @@
     border: 2px solid black;
     display: flex;
     align-items: center;
+    background-color: #369382;
+    border-radius: 20px;
 }
 #logo{
     height: 130px;
@@ -53,4 +55,73 @@
 }
 #right_nav ul li {
     list-style-type: none;
+}
+.btn{
+    width: 157px;
+    height: 59px;
+    margin-left: 60px;
+    border-radius: 20px;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    height: 629px;
+    width: 697px;
+    background-color: #860e91;
+    border-radius: 40px;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#login_box{
+    height: 400px;
+    width: 400px;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#login_form {
+    width: 400px;
+    height: 71px;
+    background-color: white;
+    text-align: center;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#Username input{
+   width: 301px;
+   height: 67px;
+   border-radius: 25px;
+   text-align: center;
+}
+#Password input{
+  height: 73px;
+  width: 301px;
+  border-radius: 25px;
+  text-align: center;
+}
+#submit button{
+    width: 199px;
+    height: 66px;
+    background-color: chartreuse;
+}
+#new_user{
+    width: 139px;
+    height: 39px;
+    position: absolute;
+    top:70px;
+    right: 100px;
+
+    border:2px solid red;
+    text-align: center;
+    font-size: 30px;
 }
