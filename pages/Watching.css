@@ -35,7 +35,7 @@
     width: 130px;
     border-radius: 50%;
     border:2px solid black;
-    background-image: url("./images/watchel.jpg");
+    background-image: url("/images/watchel.jpg");
     background-size: cover;
 }
 
@@ -56,6 +56,7 @@
 #right_nav ul li {
     list-style-type: none;
 }
+
 .btn{
     width: 157px;
     height: 59px;
@@ -65,61 +66,24 @@
 section{
     display: flex;
     justify-content: center;
-    align-items: center;
 }
-#container{
-    height: 629px;
-    width: 697px;
-    background-color: #860e91;
-    border-radius: 40px;
-    margin: 50px;
+#movie-box{
+    height: 800px;
+    width: 850px;
+    border:3px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
+    flex-wrap: nowrap;
 }
-#login_box{
-    height: 400px;
-    width: 400px;
-    /* background-color: green; */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
+#screen{
+    width: 830px;
+    height: 546px;
+    border-radius: 20px;
+    border:2px solid black;
 }
-#login_form {
-    width: 400px;
-    height: 71px;
-    background-color: white;
-    text-align: center;
-    border-radius: 25px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-#Username input{
-   width: 301px;
-   height: 67px;
-   border-radius: 25px;
-   text-align: center;
-}
-#Password input{
-  height: 73px;
-  width: 301px;
-  border-radius: 25px;
-  text-align: center;
-}
-#submit button{
-    width: 199px;
-    height: 66px;
-    background-color: chartreuse;
-}
-#new_user{
-    width: 139px;
-    height: 39px;
-    position: absolute;
-    top:70px;
-    right: 100px;
-    text-align: center;
-    font-size: 30px;
+#moviename{
+    width: 300px;
+    height: 60px;
+    border: 2px solid black;;
 }
