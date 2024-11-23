@@ -3,6 +3,9 @@
     padding: 0PX;
     box-sizing: border-box;
 }
+body {
+    background-color: #183A45;
+}
 
 #navbar{
     width: 100%;
@@ -27,7 +30,7 @@
     border: 2px solid black;
     display: flex;
     align-items: center;
-    background-color: #369382;
+    background-color: #BC1A1A;
     border-radius: 20px;
 }
 #logo{
@@ -98,12 +101,18 @@ section{
     flex-wrap: wrap;
     
 }
-.movie button{
+.movie a button{
     height: 226px;
     width: 237px;
     border-radius: 20px;
-    background-color: rgb(102, 32, 32);
+    background-color: rgb(32, 102, 74);
     margin-left: 40px;
     margin-top: 10px;
+    border: 2px solid black;
 
+}
+.btnbox{
+    height: 20px;
+    width: 40px;
+    background-color:red;
 }
